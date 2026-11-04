@@ -87,7 +87,7 @@ document.documentElement.outerHTML
 
 弹出面板下方会显示 `Export successful!`，失败时显示对应的错误信息。
 
-## 技术说明
+## 工作原理
 
 `popup.js` 通过 `chrome.scripting.executeScript` 向当前标签页注入一段函数，读取 DOM，序列化 doctype 并拼到最前面：
 
